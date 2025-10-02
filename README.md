@@ -16,20 +16,24 @@ Project Structure
   - Update title, body, status, tags
   - Filter by status (OPEN, RESOLVED, CLOSED)
   - Search by keyword/tags
+
 **Answers**
   - Create with referential integrity (must link to an existing question)
   - Update body, toggle accepted flag
   - Search answers by question/keyword
+    
 **Validation**
   - Reject invalid titles/tags
   - Ensure timestamps update properly
   - Provide meaningful error messages
+    
 **Collections**
   - Support storing all current questions/answers
   - Support subsets (search results, filtered lists)
 
 My setup
   - JDK24
+  - JavaFX24
   - JUnit 5
 
 Run HW2.java for the console demo
